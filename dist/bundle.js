@@ -74,6 +74,16 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/data.xml":
+/*!**********************!*\
+  !*** ./src/data.xml ***!
+  \**********************/
+/***/ ((module) => {
+
+eval("module.exports = {\"note\":{\"to\":[\"Even\"],\"from\":[\"Bunny\"],\"heading\":[\"Reminder\"],\"body\":[\"Love coding\"]}}\n\n//# sourceURL=webpack://webpack-demo/./src/data.xml?");
+
+/***/ }),
+
 /***/ "./src/Simba.png":
 /*!***********************!*\
   !*** ./src/Simba.png ***!
@@ -92,7 +102,7 @@ eval("module.exports = __webpack_require__.p + \"af11db24a66fa08068bf.png\";\n\n
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _Simba_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Simba.png */ \"./src/Simba.png\");\n\n\n\n\nfunction component() {\n  const element = document.createElement(\"div\");\n  // lodash 在当前 script 中使用 import 引入\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join([\"Hello\", \"webpack\"], \" \");\n  element.classList.add('hello');\n  // 将图像添加到我们已经存在的 div 中。\n  const myIcon = new Image();\n  myIcon.src = _Simba_png__WEBPACK_IMPORTED_MODULE_2__;\n  element.appendChild(myIcon);\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _Simba_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Simba.png */ \"./src/Simba.png\");\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data.xml */ \"./src/data.xml\");\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_data_xml__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nfunction component() {\n  const element = document.createElement(\"div\");\n  // lodash 在当前 script 中使用 import 引入\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join([\"Hello\", \"webpack\"], \" \");\n  element.classList.add('hello');\n  // 将图像添加到我们已经存在的 div 中。\n  const myIcon = new Image();\n  myIcon.src = _Simba_png__WEBPACK_IMPORTED_MODULE_2__;\n  element.appendChild(myIcon);\n  console.log((_data_xml__WEBPACK_IMPORTED_MODULE_3___default()));\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
 
 /***/ }),
 
