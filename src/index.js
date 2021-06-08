@@ -3,6 +3,7 @@ import _ from "lodash";
 // import Icon from './Simba.png';
 // import Data from './data.xml';
 import printMe from './print.js';
+import './styles.css';
 
 function component() {
   const element = document.createElement("div");
